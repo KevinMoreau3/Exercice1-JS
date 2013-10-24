@@ -14,12 +14,15 @@ function adder()
 		}
 	
 	}
-
-function mult(v){
-	return function(e){
+}
+function mult(v)
+{
+	return function(e)
+        {
 		return v*e;
 		}
 	}
+
 function sub(a)
 {
 	return function(b)
