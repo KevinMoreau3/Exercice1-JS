@@ -11,7 +11,6 @@ function adder() {
     }
 
 }
-}
 
 function mult(v) {
     return function (e) {
