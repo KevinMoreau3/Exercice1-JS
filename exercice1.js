@@ -8,21 +8,20 @@ function adder() {
         });
         return result;
 
-    }
+    };
 
 }
 
 function mult(v) {
     return function (e) {
         return v * e;
-    }
+    };
 }
 
 function sub(a) {
     return function (b) {
         return a - b;
-    }
-
+    };
 }
 
 console.log(adder(mult(2), mult(4))(2));
